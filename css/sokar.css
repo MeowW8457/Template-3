@@ -386,6 +386,7 @@ header .mega-menu .links i {
 .articles {
   padding-top: var(--main-padding-top);
   padding-bottom: var(--main-padding-bottom);
+  position: relative;
 }
 .articles .container {
   display: grid;
@@ -393,7 +394,9 @@ header .mega-menu .links i {
   gap: 40px;
 }
 .articles .article {
-  border-radius: 5px;
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
   box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
   transition: var(--main-transition);
 }
@@ -402,25 +405,23 @@ header .mega-menu .links i {
   box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
 }
 .articles .article:hover i {
-  animation: article-hov 0.5s linear infinite;
+  animation: article-hov 0.6s linear infinite;
 }
 .articles .article-img img {
   max-width: 100%;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
 }
 .articles .article .article-text {
-  padding: 0 20px 10px;
-  border-bottom: 1px solid #ececec;
+  padding: 20px;
+  border-bottom: 1px solid #e6e6e7;
 }
 .articles .article .article-text h4 {
   font-size: 19px;
-  margin: 20px 0 0;
+  margin: 0;
 }
 .articles .article .article-text p {
   color: #777;
   line-height: 1.5;
-  margin: 10px 0;
+  margin: 10px 0 0;
 }
 .articles .article .article-link {
   padding: 20px;
