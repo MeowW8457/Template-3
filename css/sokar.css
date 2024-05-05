@@ -1547,6 +1547,11 @@ header .mega-menu .links i {
   color: white;
   font-weight: bold;
   font-size: 20px;
+  cursor: pointer;
+  transition: var(--main-transition);
+}
+.discount .discount-2 .btn:hover {
+  background-color: var(--main-color-alt);
 }
 @keyframes discount-bgi {
   0% {
